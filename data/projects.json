@@ -90,24 +90,6 @@
     "images": []
   },
   {
-    "id": "monitoramento-vibelink",
-    "title": "Monitoramento Vibelink",
-    "category": "fullstack",
-    "subcategory": "tools",
-    "description": "Dashboard de monitoramento de máquinas industriais (temperatura, status de operação, alertas) em tempo real. Arquitetura moderna com React, Fastify, PostgreSQL e WebSockets.",
-    "stack": ["React", "TypeScript", "Vite", "Tailwind", "Fastify", "Prisma", "PostgreSQL", "Socket.io", "Docker"],
-    "role": "Full Stack Developer",
-    "year": 2024,
-    "links": {
-      "live": "https://monitoramento-vibelink.vercel.app",
-      "code": "https://github.com/adrianogdr/monitoramento-vibelink",
-      "caseStudy": null
-    },
-    "thumbnail": "vibelink.svg",
-    "featured": false,
-    "images": []
-  },
-  {
     "id": "nextsite",
     "title": "NextSite — Starter Kit",
     "category": "fullstack",
@@ -197,42 +179,6 @@
       "caseStudy": null
     },
     "thumbnail": "insta-gen.svg",
-    "featured": false,
-    "images": []
-  },
-  {
-    "id": "crm-b2c",
-    "title": "CRM B2C",
-    "category": "fullstack",
-    "subcategory": "apps",
-    "description": "Sistema de gestão de relacionamento com clientes B2C: pipeline de vendas, automação de marketing, segmentação de leads, relatórios e dashboards.",
-    "stack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Vercel"],
-    "role": "Full Stack Developer",
-    "year": 2024,
-    "links": {
-      "live": "https://crm-b2c.vercel.app",
-      "code": "https://github.com/adrianogdr/crm-b2c",
-      "caseStudy": null
-    },
-    "thumbnail": "crm-b2c.svg",
-    "featured": false,
-    "images": []
-  },
-  {
-    "id": "monitoramento-vibelink-api",
-    "title": "Monitoramento Vibelink API",
-    "category": "backend",
-    "subcategory": "tools",
-    "description": "API REST + WebSocket para monitoramento industrial: CRUD de máquinas, alertas em tempo real, logs históricos, métricas de OEE. Fastify + Prisma + PostgreSQL + Socket.io.",
-    "stack": ["Fastify", "TypeScript", "Prisma", "PostgreSQL", "Socket.io", "Docker"],
-    "role": "Backend Developer",
-    "year": 2024,
-    "links": {
-      "live": "https://monitoramento-vibelink-api.vercel.app",
-      "code": "https://github.com/adrianogdr/monitoramento-vibelink",
-      "caseStudy": null
-    },
-    "thumbnail": "vibelink.svg",
     "featured": false,
     "images": []
   },
