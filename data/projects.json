@@ -90,24 +90,6 @@
     "images": []
   },
   {
-    "id": "nextsite",
-    "title": "NextSite — Starter Kit",
-    "category": "fullstack",
-    "subcategory": "tools",
-    "description": "Boilerplate Next.js 14+ com App Router, TypeScript, Tailwind, ESLint, Prettier, Husky, CI/CD GitHub Actions, deploy Vercel otimizado.",
-    "stack": ["Next.js", "TypeScript", "Tailwind CSS", "ESLint", "Prettier", "GitHub Actions"],
-    "role": "Full Stack Developer",
-    "year": 2025,
-    "links": {
-      "live": "https://nextsite-red.vercel.app",
-      "code": "https://github.com/adrianogdr/nextsite",
-      "caseStudy": null
-    },
-    "thumbnail": "nextsite.svg",
-    "featured": false,
-    "images": []
-  },
-  {
     "id": "cortex-vision",
     "title": "Cortex Vision — Assistente IA Desktop",
     "category": "backend",
