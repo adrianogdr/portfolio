@@ -785,9 +785,9 @@ a:hover {
   object-fit: cover;
 }
 
-/* Loading State */
+/* Loading State - images visible by default, fade-in only as enhancement */
 .project-card__image[loading="lazy"] {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 200ms ease;
 }
 
