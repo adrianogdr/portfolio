@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de Adriano Gonçalves de Resende — Programação, Automação e Design",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build step required'",
+    "validate": "npx html-validate index.html --config .htmlvalidate.json 2>/dev/null || echo 'html-validate not installed, skipping'",
+    "lighthouse": "npx lighthouse http://localhost:3000 --output=html --output-path=./lighthouse-report.html --view"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "designer",
+    "fullstack",
+    "frontend",
+    "backend"
+  ],
+  "author": "Adriano Gonçalves de Resende <adrianogdr@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianogdr/portfolio.git"
+  },
+  "homepage": "https://adrianogdr.vercel.app",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

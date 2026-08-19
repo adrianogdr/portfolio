@@ -1,0 +1,191 @@
+[
+  {
+    "id": "portal-dei-ias",
+    "title": "Portal DEI IAs",
+    "category": "fullstack",
+    "subcategory": "apps",
+    "description": "Diretório de ferramentas de IA com busca, filtros, avaliação por estrelas, CRUD admin, chat assistente e exportação de dados. Dados persistem em localStorage.",
+    "stack": ["HTML", "CSS", "JavaScript", "localStorage", "Gemini API"],
+    "role": "Full Stack Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://portal-dei-ias.vercel.app",
+      "code": "https://github.com/adrianogdr/portal-dei-ias",
+      "caseStudy": null
+    },
+    "thumbnail": "portal-dei-ias.webp",
+    "featured": true,
+    "images": []
+  },
+  {
+    "id": "catalogo-digital-whatsapp",
+    "title": "Catálogo Digital WhatsApp",
+    "category": "frontend",
+    "subcategory": "apps",
+    "description": "Catálogo de produtos com carrinho lateral, cálculo de total e envio direto via WhatsApp. Interface mobile-first, sem backend.",
+    "stack": ["HTML", "CSS", "JavaScript", "WhatsApp Web API"],
+    "role": "Frontend Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://catalogo-digital-whatsapp.vercel.app",
+      "code": "https://github.com/adrianogdr/catalogo-digital-whatsapp",
+      "caseStudy": null
+    },
+    "thumbnail": "catalogo-whatsapp.webp",
+    "featured": true,
+    "images": []
+  },
+  {
+    "id": "projeto-quilombo-mangueiras-digital",
+    "title": "Quilombo Mangueiras Digital",
+    "category": "frontend",
+    "subcategory": "apps",
+    "description": "Sistema de pedidos para hortifrúti orgânico: catálogo dinâmico, formulário cliente, integração WhatsApp + Google Apps Script (salva em planilha).",
+    "stack": ["HTML", "CSS", "JavaScript", "Google Apps Script", "Fetch API"],
+    "role": "Full Stack Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://projeto-quilombo-mangueiras-digital.vercel.app",
+      "code": "https://github.com/adrianogdr/projeto-quilombo-mangueiras-digital",
+      "caseStudy": null
+    },
+    "thumbnail": "quilombo.webp",
+    "featured": true,
+    "images": []
+  },
+  {
+    "id": "loja-organicos",
+    "title": "Loja Orgânicos",
+    "category": "fullstack",
+    "subcategory": "apps",
+    "description": "E-commerce de orgânicos com carrinho, checkout, painel admin, gestão de estoque e integração de pagamento. Deploy serverless no Vercel.",
+    "stack": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Vercel"],
+    "role": "Full Stack Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://loja-organicos.vercel.app",
+      "code": "https://github.com/adrianogdr/loja-organicos",
+      "caseStudy": null
+    },
+    "thumbnail": "loja-organicos.webp",
+    "featured": true,
+    "images": []
+  },
+  {
+    "id": "loja-lumina-atelie",
+    "title": "Loja Lumina Ateliê",
+    "category": "fullstack",
+    "subcategory": "apps",
+    "description": "E-commerce para ateliê artesanal: catálogo de produtos personalizados, variantes (cor/tamanho), carrinho persistente, WhatsApp checkout.",
+    "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel KV", "WhatsApp API"],
+    "role": "Full Stack Developer",
+    "year": 2025,
+    "links": {
+      "live": "https://loja-lumina-atelie.vercel.app",
+      "code": "https://github.com/adrianogdr/loja-lumina-atelie",
+      "caseStudy": null
+    },
+    "thumbnail": "loja-lumina.webp",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": "monitoramento-vibelink",
+    "title": "Monitoramento Vibelink",
+    "category": "backend",
+    "subcategory": "tools",
+    "description": "Dashboard de monitoramento de links/uptime com alertas em tempo real, logs históricos, métricas de latência e status codes. API REST + WebSocket.",
+    "stack": ["Node.js", "Express", "TypeScript", "WebSocket", "PostgreSQL", "Docker"],
+    "role": "Backend Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://monitoramento-vibelink.vercel.app",
+      "code": "https://github.com/adrianogdr/monitoramento-vibelink",
+      "caseStudy": null
+    },
+    "thumbnail": "vibelink.webp",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": "nextsite",
+    "title": "NextSite — Starter Kit",
+    "category": "fullstack",
+    "subcategory": "tools",
+    "description": "Boilerplate Next.js 14+ com App Router, TypeScript, Tailwind, ESLint, Prettier, Husky, CI/CD GitHub Actions, deploy Vercel otimizado.",
+    "stack": ["Next.js", "TypeScript", "Tailwind CSS", "ESLint", "Prettier", "GitHub Actions"],
+    "role": "Full Stack Developer",
+    "year": 2025,
+    "links": {
+      "live": "https://nextsite.vercel.app",
+      "code": "https://github.com/adrianogdr/nextsite",
+      "caseStudy": null
+    },
+    "thumbnail": "nextsite.webp",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": "cortex-vision",
+    "title": "Cortex Vision — Assistente IA Desktop",
+    "category": "backend",
+    "subcategory": "tools",
+    "description": "Assistente IA multimodal (voz, visão, texto) com suporte multi-provider (Gemini, OpenAI, Anthropic, OpenRouter), TTS/STT, system tray, overlay global via hotkey.",
+    "stack": ["Python", "CustomTkinter", "google-genai", "edge-tts", "speech_recognition", "pystray", "AsyncIO"],
+    "role": "Backend Developer & Architect",
+    "year": 2024,
+    "links": {
+      "live": null,
+      "code": "https://github.com/adrianogdr/cortex-vision",
+      "caseStudy": null
+    },
+    "thumbnail": "cortex-vision.webp",
+    "featured": true,
+    "images": [
+      "cortex-vision-1.webp",
+      "cortex-vision-2.webp"
+    ]
+  },
+  {
+    "id": "instagram-post-generator",
+    "title": "Gerador de Posts Instagram",
+    "category": "backend",
+    "subcategory": "tools",
+    "description": "API Node.js/Express que recebe imagens + contexto e gera legendas/hashtags otimizadas via Gemini. Upload via Multer, deploy serverless Vercel.",
+    "stack": ["Node.js", "Express", "Google Gemini API", "Multer", "Vercel"],
+    "role": "Backend Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://instagram-post-generator.vercel.app",
+      "code": "https://github.com/adrianogdr/instagram-post-generator",
+      "caseStudy": null
+    },
+    "thumbnail": "insta-gen.webp",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": "design-assets",
+    "title": "Design Assets — PSD, Pixar Scenes & Templates",
+    "category": "design",
+    "subcategory": "systems",
+    "description": "Coleção de assets editáveis: logos em PSD (camadas inteligentes), 30+ cenas/avatares estilo Pixar (Midjourney/SD), 5 templates JSON para páginas de vendas alto ticket.",
+    "stack": ["Adobe Photoshop", "Midjourney", "Stable Diffusion", "Figma", "JSON Schema"],
+    "role": "AI Artist & Product Designer",
+    "year": 2024,
+    "links": {
+      "live": null,
+      "code": null,
+      "caseStudy": null
+    },
+    "thumbnail": "design-assets.webp",
+    "featured": false,
+    "images": [
+      "psd-cortex.webp",
+      "psd-quilombo.webp",
+      "pixar-1.webp",
+      "pixar-2.webp",
+      "workshop-protagon.webp"
+    ]
+  }
+]
