@@ -121,11 +121,12 @@
             onload="this.classList.add('loaded')"
             onerror="handleImageError(this, '${project.category}', '${project.title.replace(/'/g, "\\'")}')"
           >
-          <div class="project-card__overlay">
-            <span class="project-card__category badge--${project.category}">${project.category}</span>
-            <h3 class="project-card__title">${project.title}</h3>
-            <p class="project-card__description">${project.description}</p>
-          </div>
+          <div class="project-card__overlay"></div>
+        </div>
+        <div class="project-card__content">
+          <span class="project-card__category badge--${project.category}">${project.category}</span>
+          <h3 class="project-card__title">${project.title}</h3>
+          <p class="project-card__description">${project.description}</p>
         </div>
         <footer class="project-card__footer">
           <div class="project-card__tags">
