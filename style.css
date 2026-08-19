@@ -366,27 +366,20 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Overlay sutil apenas para efeito visual no hover */
 .project-card__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(10,10,11,0.4) 100%);
+  background: linear-gradient(180deg, transparent 50%, rgba(10,10,11,0.95) 100%);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   opacity: 0;
   transition: opacity var(--transition);
-  pointer-events: none;
 }
 
 .project-card:hover .project-card__overlay {
   opacity: 1;
-}
-
-/* Conteúdo sempre visível */
-.project-card__content {
-  padding: 1rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  flex: 1;
 }
 
 .project-card__category {
@@ -400,12 +393,14 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   width: fit-content;
+  margin-bottom: 0.75rem;
 }
 
 .project-card__title {
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.3;
+  margin-bottom: 0.5rem;
 }
 
 .project-card__description {
