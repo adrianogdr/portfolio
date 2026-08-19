@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Gerador de Posts Instagram - API Node.js">
+  <defs>
+    <linearGradient id="bg-backend3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg-backend3)"/>
+  <rect x="0" y="0" width="640" height="400" fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.3"/>
+  <text x="320" y="180" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="#a78bfa" opacity="0.9">IG</text>
+  <text x="320" y="250" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#a78bfa" opacity="0.7">Gerador Posts IG</text>
+  <text x="320" y="280" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="12" fill="#a78bfa" opacity="0.5">BACKEND</text>
+  <rect x="220" y="120" width="200" height="200" rx="20" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.3"/>
+  <circle cx="320" cy="180" r="40" fill="none" stroke="#f472b6" stroke-width="3" stroke-dasharray="8 4" opacity="0.5"/>
+  <path d="M280 180 Q320 150 360 180" fill="none" stroke="#f472b6" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="320" cy="180" r="8" fill="#f472b6" opacity="0.6"/>
+  <rect x="240" y="280" width="160" height="36" rx="8" fill="#a78bfa" opacity="0.3"/>
+  <text x="320" y="302" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="12" fill="#a78bfa" opacity="0.7">Node.js • Gemini API</text>
+</svg>

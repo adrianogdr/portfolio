@@ -13,7 +13,7 @@
       "code": "https://github.com/adrianogdr/portal-dei-ias",
       "caseStudy": null
     },
-    "thumbnail": "portal-dei-ias.webp",
+    "thumbnail": "portal-dei-ias.svg",
     "featured": true,
     "images": []
   },
@@ -31,7 +31,7 @@
       "code": "https://github.com/adrianogdr/catalogo-digital-whatsapp",
       "caseStudy": null
     },
-    "thumbnail": "catalogo-whatsapp.webp",
+    "thumbnail": "catalogo-whatsapp.svg",
     "featured": true,
     "images": []
   },
@@ -49,7 +49,7 @@
       "code": "https://github.com/adrianogdr/projeto-quilombo-mangueiras-digital",
       "caseStudy": null
     },
-    "thumbnail": "quilombo.webp",
+    "thumbnail": "quilombo.svg",
     "featured": true,
     "images": []
   },
@@ -67,7 +67,7 @@
       "code": "https://github.com/adrianogdr/loja-organicos",
       "caseStudy": null
     },
-    "thumbnail": "loja-organicos.webp",
+    "thumbnail": "loja-organicos.svg",
     "featured": true,
     "images": []
   },
@@ -85,7 +85,7 @@
       "code": "https://github.com/adrianogdr/loja-lumina-atelie",
       "caseStudy": null
     },
-    "thumbnail": "loja-lumina.webp",
+    "thumbnail": "loja-lumina.svg",
     "featured": false,
     "images": []
   },
@@ -103,7 +103,7 @@
       "code": "https://github.com/adrianogdr/monitoramento-vibelink",
       "caseStudy": null
     },
-    "thumbnail": "vibelink.webp",
+    "thumbnail": "vibelink.svg",
     "featured": false,
     "images": []
   },
@@ -121,7 +121,7 @@
       "code": "https://github.com/adrianogdr/nextsite",
       "caseStudy": null
     },
-    "thumbnail": "nextsite.webp",
+    "thumbnail": "nextsite.svg",
     "featured": false,
     "images": []
   },
@@ -139,11 +139,11 @@
       "code": "https://github.com/adrianogdr/cortex-vision",
       "caseStudy": null
     },
-    "thumbnail": "cortex-vision.webp",
+    "thumbnail": "cortex-vision.svg",
     "featured": true,
     "images": [
-      "cortex-vision-1.webp",
-      "cortex-vision-2.webp"
+      "cortex-vision-1.svg",
+      "cortex-vision-2.svg"
     ]
   },
   {
@@ -160,7 +160,25 @@
       "code": "https://github.com/adrianogdr/instagram-post-generator",
       "caseStudy": null
     },
-    "thumbnail": "insta-gen.webp",
+    "thumbnail": "insta-gen.svg",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": "crm-b2c",
+    "title": "CRM B2C",
+    "category": "fullstack",
+    "subcategory": "apps",
+    "description": "Sistema de gestão de relacionamento com clientes B2C: pipeline de vendas, automação de marketing, segmentação de leads, relatórios e dashboards.",
+    "stack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Vercel"],
+    "role": "Full Stack Developer",
+    "year": 2024,
+    "links": {
+      "live": "https://crm-b2c.vercel.app",
+      "code": "https://github.com/adrianogdr/crm-b2c",
+      "caseStudy": null
+    },
+    "thumbnail": "crm-b2c.svg",
     "featured": false,
     "images": []
   },
@@ -178,14 +196,14 @@
       "code": null,
       "caseStudy": null
     },
-    "thumbnail": "design-assets.webp",
+    "thumbnail": "design-assets.svg",
     "featured": false,
     "images": [
-      "psd-cortex.webp",
-      "psd-quilombo.webp",
-      "pixar-1.webp",
-      "pixar-2.webp",
-      "workshop-protagon.webp"
+      "psd-cortex.svg",
+      "psd-quilombo.svg",
+      "pixar-1.svg",
+      "pixar-2.svg",
+      "workshop-protagon.svg"
     ]
   }
 ]
