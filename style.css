@@ -333,7 +333,7 @@ a:hover {
   outline-offset: 2px;
 }
 
-.project-card--featured {
+.project-card--featured:nth-of-type(-n+2) {
   @media (min-width: 1024px) {
     grid-column: span 2;
   }
