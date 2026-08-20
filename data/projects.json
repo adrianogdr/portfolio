@@ -113,12 +113,12 @@
   {
     "id": "instagram-post-generator",
     "title": "Gerador de Posts Instagram",
-    "category": "backend",
+    "category": "fullstack",
     "subcategory": "tools",
-    "description": "API Node.js/Express que recebe imagens + contexto e gera legendas/hashtags otimizadas via Gemini. Upload via Multer, deploy serverless Vercel.",
-    "stack": ["Node.js", "Express", "Google Gemini API", "Multer", "Vercel"],
-    "role": "Backend Developer",
-    "year": 2024,
+    "description": "Plataforma completa para geração de posts Instagram com IA (Gemini): upload de mídia, contexto, seleção de tom, geração de legenda + hashtags + formato sugerido. Frontend React/Vite + API Serverless (Node.js/Express). Tema dark com gradientes purple/pink.",
+    "stack": ["React", "Vite", "TypeScript", "Tailwind CSS", "Node.js", "Express", "Google Gemini API", "Vercel Serverless"],
+    "role": "Full Stack Developer",
+    "year": 2025,
     "links": {
       "live": "https://instagram-post-generator-tau.vercel.app",
       "code": "https://github.com/adrianogdr/instagram-post-generator",
@@ -143,24 +143,6 @@
       "caseStudy": null
     },
     "thumbnail": "crm-b2c.svg",
-    "featured": false,
-    "images": []
-  },
-  {
-    "id": "gerador-posts",
-    "title": "Gerador de Posts Instagram (Next.js)",
-    "category": "fullstack",
-    "subcategory": "tools",
-    "description": "Plataforma completa para geração de posts Instagram com IA (Gemini): upload de mídia, contexto, seleção de tom, geração de legenda + hashtags + formato sugerido. Next.js 16 + App Router + Serverless Functions.",
-    "stack": ["Next.js 16", "TypeScript", "Tailwind CSS", "Google Gemini API", "Vercel Serverless"],
-    "role": "Full Stack Developer",
-    "year": 2025,
-    "links": {
-      "live": "https://gerador-posts-mu.vercel.app",
-      "code": "https://github.com/adrianogdr/instagram-post-generator",
-      "caseStudy": null
-    },
-    "thumbnail": "insta-gen.svg",
     "featured": false,
     "images": []
   },
