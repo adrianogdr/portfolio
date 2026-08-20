@@ -332,16 +332,6 @@ a:hover {
   outline-offset: 2px;
 }
 
-/* Featured card visual distinction */
-.project-card--featured {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent), var(--shadow);
-}
-
-.project-card--featured:hover {
-  box-shadow: 0 0 0 2px var(--accent), var(--shadow-lg);
-}
-
 
 
 .project-card__media {
@@ -382,21 +372,6 @@ a:hover {
 
 .project-card:hover .project-card__overlay {
   background: linear-gradient(180deg, transparent 30%, rgba(10,10,11,0.95) 100%);
-}
-
-.project-card--featured .project-card__overlay::before {
-  content: "Destaque";
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.25rem 0.75rem;
-  background: var(--accent);
-  color: #000;
-  font-size: 0.625rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 9999px;
 }
 
 .project-card__category {
