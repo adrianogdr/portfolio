@@ -103,7 +103,7 @@
       "code": "https://github.com/adrianogdr/cortex-vision",
       "caseStudy": null
     },
-    "thumbnail": "cortex-vision.svg",
+    "thumbnail": "cortex-vision.jpg",
     "featured": true,
     "images": [
       "cortex-vision-1.svg",
@@ -124,7 +124,7 @@
       "code": "https://github.com/adrianogdr/instagram-post-generator",
       "caseStudy": null
     },
-    "thumbnail": "insta-gen.svg",
+    "thumbnail": "instagram-post-generator.jpg",
     "featured": false,
     "images": []
   },
