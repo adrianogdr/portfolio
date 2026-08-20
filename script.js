@@ -25,21 +25,10 @@
   const modal = document.getElementById('case-study');
   const modalClose = modal.querySelector('.modal__close');
   const modalBackdrop = modal.querySelector('.modal__backdrop');
-  const settingsModal = document.getElementById('settings-modal');
-  const settingsModalClose = settingsModal?.querySelector('.modal__close');
-  const settingsModalBackdrop = settingsModal?.querySelector('.modal__backdrop');
-  const btnSettings = document.getElementById('btnSettings');
-  const geminiApiKeyInput = document.getElementById('geminiApiKey');
-  const openaiApiKeyInput = document.getElementById('openaiApiKey');
-  const btnSaveKeys = document.getElementById('btnSaveKeys');
-  const btnClearKeys = document.getElementById('btnClearKeys');
-  const toggleGeminiKey = document.getElementById('toggleGeminiKey');
-  const toggleOpenaiKey = document.getElementById('toggleOpenaiKey');
 
   // Initialize
   async function init() {
     await loadProjects();
-    loadSavedApiKeys();
     renderProjects();
     bindEvents();
     handleHashChange();
@@ -56,46 +45,6 @@
       console.error('Error loading projects:', error);
       projects = [];
     }
-  }
-
-  // Load saved API keys from localStorage
-  function loadSavedApiKeys() {
-    const geminiKey = localStorage.getItem('gemini_api_key');
-    const openaiKey = localStorage.getItem('openai_api_key');
-    if (geminiApiKeyInput && geminiKey) {
-      geminiApiKeyInput.value = geminiKey;
-    }
-    if (openaiApiKeyInput && openaiKey) {
-      openaiApiKeyInput.value = openaiKey;
-    }
-  }
-
-  // Save API keys to localStorage
-  function saveApiKeys() {
-    if (geminiApiKeyInput) {
-      const geminiKey = geminiApiKeyInput.value.trim();
-      if (geminiKey) {
-        localStorage.setItem('gemini_api_key', geminiKey);
-      } else {
-        localStorage.removeItem('gemini_api_key');
-      }
-    }
-    if (openaiApiKeyInput) {
-      const openaiKey = openaiApiKeyInput.value.trim();
-      if (openaiKey) {
-        localStorage.setItem('openai_api_key', openaiKey);
-      } else {
-        localStorage.removeItem('openai_api_key');
-      }
-    }
-  }
-
-  // Clear all API keys
-  function clearApiKeys() {
-    localStorage.removeItem('gemini_api_key');
-    localStorage.removeItem('openai_api_key');
-    if (geminiApiKeyInput) geminiApiKeyInput.value = '';
-    if (openaiApiKeyInput) openaiApiKeyInput.value = '';
   }
 
   // Generate placeholder SVG
@@ -399,46 +348,6 @@
     modal.addEventListener('click', (e) => {
       if (e.target === modal) closeModal();
     });
-
-    // Settings modal events
-    if (btnSettings) {
-      btnSettings.addEventListener('click', openSettingsModal);
-    }
-    if (settingsModalClose) {
-      settingsModalClose.addEventListener('click', closeSettingsModal);
-    }
-    if (settingsModalBackdrop) {
-      settingsModalBackdrop.addEventListener('click', closeSettingsModal);
-    }
-    if (btnSaveKeys) {
-      btnSaveKeys.addEventListener('click', saveApiKeys);
-    }
-    if (btnClearKeys) {
-      btnClearKeys.addEventListener('click', () => {
-        clearApiKeys();
-        closeSettingsModal();
-      });
-    }
-    if (toggleGeminiKey) {
-      toggleGeminiKey.addEventListener('click', () => toggleKeyVisibility(geminiApiKeyInput, toggleGeminiKey));
-    }
-    if (toggleOpenaiKey) {
-      toggleOpenaiKey.addEventListener('click', () => toggleKeyVisibility(openaiApiKeyInput, toggleOpenaiKey));
-    }
-
-    // ESC key for settings modal
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && settingsModal?.open) {
-        closeSettingsModal();
-      }
-    });
-
-    // Click outside settings modal content
-    if (settingsModal) {
-      settingsModal.addEventListener('click', (e) => {
-        if (e.target === settingsModal) closeSettingsModal();
-      });
-    }
   }
 
   function focusNextPill(current) {
@@ -492,30 +401,6 @@
       if (modal.open) closeModal();
       setCategory('all');
     }
-  }
-
-  // Settings modal functions
-  function openSettingsModal() {
-    if (!settingsModal) return;
-    settingsModal.showModal();
-    document.body.style.overflow = 'hidden';
-    if (geminiApiKeyInput) geminiApiKeyInput.focus();
-  }
-
-  function closeSettingsModal() {
-    if (!settingsModal) return;
-    settingsModal.close();
-    document.body.style.overflow = '';
-  }
-
-  function toggleKeyVisibility(input, button) {
-    if (!input || !button) return;
-    const isPassword = input.type === 'password';
-    input.type = isPassword ? 'text' : 'password';
-    button.innerHTML = isPassword
-      ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>'
-      : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>';
-    button.setAttribute('aria-label', isPassword ? 'Ocultar API Key' : 'Mostrar API Key');
   }
 
   // Add fadeUp animation

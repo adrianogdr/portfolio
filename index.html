@@ -26,9 +26,6 @@
       <nav class="header__cta" aria-label="Ações principais">
         <a href="#projects" class="btn btn--primary">Ver Projetos</a>
         <a href="mailto:adrianogdr@gmail.com" class="btn btn--ghost">Contato</a>
-        <button class="btn btn--ghost header__settings" id="btnSettings" aria-label="Configurações" title="Configurações">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        </button>
       </nav>
     </div>
   </header>
@@ -73,45 +70,6 @@
           <div class="modal__tags" aria-label="Tecnologias utilizadas"></div>
           <p class="modal__description"></p>
           <nav class="modal__links" aria-label="Links do projeto"></nav>
-        </div>
-      </div>
-    </div>
-  </dialog>
-
-  <dialog id="settings-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="settings-title">
-    <div class="modal__backdrop" tabindex="-1" aria-hidden="true"></div>
-    <div class="modal__content modal__content--settings">
-      <header class="modal__header">
-        <h3 id="settings-title" class="modal__title">Configurações</h3>
-        <button class="modal__close" aria-label="Fechar configurações">&times;</button>
-      </header>
-      <div class="modal__body">
-        <div class="settings-section">
-          <h4>API Keys</h4>
-          <div class="settings-field">
-            <label for="geminiApiKey">Google Gemini API Key</label>
-            <div class="settings-input-wrapper">
-              <input type="password" id="geminiApiKey" placeholder="AIzaSy..." autocomplete="off">
-              <button type="button" class="btn-toggle-visibility" id="toggleGeminiKey" aria-label="Mostrar/ocultar API Key">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-              </button>
-            </div>
-            <p class="settings-hint">Obtenha sua key em <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a></p>
-          </div>
-          <div class="settings-field">
-            <label for="openaiApiKey">OpenAI API Key</label>
-            <div class="settings-input-wrapper">
-              <input type="password" id="openaiApiKey" placeholder="sk-..." autocomplete="off">
-              <button type="button" class="btn-toggle-visibility" id="toggleOpenaiKey" aria-label="Mostrar/ocultar API Key">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-              </button>
-            </div>
-            <p class="settings-hint">Obtenha sua key em <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">platform.openai.com/api-keys</a></p>
-          </div>
-        </div>
-        <div class="settings-actions">
-          <button class="btn btn--ghost" id="btnClearKeys">Limpar todas as keys</button>
-          <button class="btn btn--primary" id="btnSaveKeys">Salvar</button>
         </div>
       </div>
     </div>
