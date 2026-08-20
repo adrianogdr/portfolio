@@ -328,7 +328,8 @@ a:hover {
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  width: 336px;
+  height: 333.74px;
 }
 
 .project-card:hover {
