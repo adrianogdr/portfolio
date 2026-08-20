@@ -1,22 +1,89 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Design Assets - PSD, Pixar Scenes & Templates">
   <defs>
     <linearGradient id="bg-design" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#f0abfc" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#f0abfc" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="psd-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="pixar-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="template-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
   </defs>
+  
+  <!-- Background -->
   <rect width="640" height="400" fill="url(#bg-design)"/>
-  <rect x="0" y="0" width="640" height="400" fill="none" stroke="#f472b6" stroke-width="2" stroke-opacity="0.3"/>
-  <text x="320" y="180" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="#f472b6" opacity="0.9">DA</text>
-  <text x="320" y="250" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#f472b6" opacity="0.7">Design Assets</text>
-  <text x="320" y="280" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="12" fill="#f472b6" opacity="0.5">DESIGN</text>
-  <rect x="180" y="130" width="100" height="130" rx="8" fill="none" stroke="#f472b6" stroke-width="2" opacity="0.4"/>
-  <rect x="200" y="150" width="60" height="60" rx="6" fill="#f472b6" opacity="0.2"/>
-  <rect x="270" y="130" width="100" height="130" rx="8" fill="none" stroke="#f472b6" stroke-width="2" opacity="0.4"/>
-  <polygon points="320,150 350,180 300,180" fill="#f472b6" opacity="0.3"/>
-  <rect x="370" y="130" width="100" height="130" rx="8" fill="none" stroke="#f472b6" stroke-width="2" opacity="0.4"/>
-  <rect x="390" y="150" width="60" height="8" rx="2" fill="#f472b6" opacity="0.3"/>
-  <rect x="390" y="165" width="40" height="8" rx="2" fill="#f472b6" opacity="0.2"/>
-  <rect x="200" y="280" width="240" height="40" rx="8" fill="#f472b6" opacity="0.2"/>
-  <text x="320" y="305" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f472b6" opacity="0.6">PSD • Pixar • Templates</text>
+  <rect x="0" y="0" width="640" height="400" fill="none" stroke="#f472b6" stroke-width="2" stroke-opacity="0.2"/>
+  
+  <!-- PSD Layer - Main Card -->
+  <g transform="translate(60, 80)">
+    <!-- PSD File Icon -->
+    <rect x="0" y="0" width="160" height="200" rx="12" fill="url(#psd-gradient)" opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="200" rx="12" fill="none" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    
+    <!-- PSD Label -->
+    <text x="80" y="40" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#fff">PSD</text>
+    <text x="80" y="60" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="10" fill="#fff" opacity="0.9">LAYERS</text>
+    
+    <!-- Layer indicators -->
+    <rect x="20" y="85" width="120" height="18" rx="3" fill="#fff" opacity="0.2"/>
+    <rect x="20" y="110" width="100" height="18" rx="3" fill="#f472b6" opacity="0.6"/>
+    <rect x="20" y="135" width="130" height="18" rx="3" fill="#fff" opacity="0.15"/>
+    <rect x="20" y="160" width="90" height="18" rx="3" fill="#fff" opacity="0_1"/>
+    
+    <!-- PS Badge -->
+    <text x="80" y="190" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#fff" opacity="0.8">PHOTOSHOP</text>
+  </g>
+  
+  <!-- Pixar Scene - Middle Card -->
+  <g transform="translate(240, 100)">
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="url(#pixar-gradient)" opacity="0.9"/>
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="none" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Character silhouette -->
+    <circle cx="80" cy="55" r="25" fill="#fff" opacity="0.3"/>
+    <ellipse cx="80" cy="110" rx="35" ry="40" fill="#fff" opacity="0.2"/>
+    
+    <text x="80" y="140" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fff">PIXAR</text>
+    <text x="80" y="155" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="8" fill="#fff" opacity="0.7">SCENES</text>
+  </g>
+  
+  <!-- Templates - Right Card -->
+  <g transform="translate(440, 120)">
+    <rect x="0" y="0" width="140" height="120" rx="10" fill="url(#template-gradient)" opacity="0.9"/>
+    <rect x="0" y="0" width="140" height="120" rx="10" fill="none" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Document icon -->
+    <rect x="40" y="20" width="60" height="70" rx="4" fill="#fff" opacity="0.3"/>
+    <rect x="45" y="30" width="50" height="8" rx="2" fill="#a78bfa" opacity="0.8"/>
+    <rect x="45" y="43" width="50" height="5" rx="2" fill="#a78bfa" opacity="0.5"/>
+    <rect x="45" y="53" width="50" height="5" rx="2" fill="#a78bfa" opacity="0.3"/>
+    <rect x="45" y="63" width="35" height="5" rx="2" fill="#a78bfa" opacity="0.2"/>
+    
+    <text x="70" y="105" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fff">TEMPLATES</text>
+    <text x="70" y="117" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="8" fill="#fff" opacity="0.7">JSON</text>
+  </g>
+  
+  <!-- Floating decorative elements -->
+  <circle cx="580" cy="50" r="3" fill="#f472b6" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="350" r="2" fill="#fbbf24" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="380" r="2.5" fill="#a78bfa" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="320" y="350" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#f472b6" opacity="0.9">DESIGN ASSETS</text>
+  <text x="320" y="375" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a78bfa" opacity="0.7">PSD • PIXAR • TEMPLATES</text>
 </svg>
